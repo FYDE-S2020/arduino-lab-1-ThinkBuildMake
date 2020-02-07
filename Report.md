@@ -1,8 +1,8 @@
-Name:
+Name: Michael Chuang
 
-EID:
+EID: mrc4375
 
-Team Number:
+Team Number: F1
 
 ## Questions
 
@@ -12,11 +12,11 @@ Team Number:
 
 2. What is the downside to putting all your code in a loop?
 
-    your answer here
+    It makes the code harder to read and debug, and it might be more inefficient if there are repeated steps.
 
 3. Why does your code need to be compiled?
 
-    your answer here
+    The computer needs to be able to read the program, thus the compiler translates the code to machine code. The computer (or arduino in this case) can only read machine code.
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
@@ -61,7 +61,7 @@ Team Number:
 ## Screenshots
 
 Procedure A, step 1:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/SaleaeScr.png)
 
 Procedure A, step 4:
 ![Put path to your image here ->](img/placeholder.png)
