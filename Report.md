@@ -20,11 +20,11 @@ Team Number: F1
 
 4. When lowering the frequency in procedure A, step 4, what is going wrong? Brainstorm some solutions. Dimmers exist in the real world. What is their solution?
 
-    your answer here
+    When we lowered the frequency, I began to notice the flickers as it became dimmer. The issue is the fact that our eyes sample at a rate of ~30Hz. We'll notice flickering anything less than that frequency. One solution is to increase the frequency above the threshold the eye can see. Another solution is to just vary the voltage instead of sending waves (although this will drain battery much faster and the device may not like the lower voltage).
 
 5. Why do you need to connect the logic analyzer ground to the ESP32 ground?
 
-    your answer here
+    Ground is what the arduino and logic analyzer use as a reference. Thus, in order to measure the same voltage/output the same voltage, the devices must be using the same reference.
 
 6. What is the difference between synchronous and asynchronous communication?
 
@@ -64,7 +64,7 @@ Procedure A, step 1:
 ![Put path to your image here ->](img/SaleaeScr.png)
 
 Procedure A, step 4:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Dimmer.png)
 
 Procedure B, UART:
 ![Put path to your image here ->](img/placeholder.png)
